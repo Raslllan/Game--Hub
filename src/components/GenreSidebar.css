@@ -1,0 +1,46 @@
+.genre-sidebar {
+  background: #16213e;
+  padding: 20px;
+  border-radius: 15px;
+  min-width: 250px;
+  height: fit-content;
+  font-family: 'Poppins', 'Segoe UI', sans-serif;
+}
+
+.genre-sidebar h3 {
+  color: #4ecdc4;
+  margin-bottom: 15px;
+  text-align: center;
+  font-family: 'Poppins', 'Segoe UI', sans-serif;
+  font-weight: 600;
+}
+
+.genre-list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.genre-btn {
+  background: #1a1a2e;
+  border: none;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 8px;
+  cursor: pointer;
+  text-align: left;
+  transition: all 0.3s ease;
+  font-family: 'Poppins', 'Segoe UI', sans-serif;
+  font-weight: 500;
+}
+
+.genre-btn:hover {
+  background: #667eea;
+  transform: translateX(5px);
+}
+
+.genre-btn.active {
+  background: #4ecdc4;
+  color: #1a1a2e;
+  font-weight: 600;
+}

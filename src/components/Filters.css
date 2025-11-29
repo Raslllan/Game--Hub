@@ -1,0 +1,32 @@
+.filters {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin-bottom: 30px;
+  flex-wrap: wrap;
+  font-family: 'Poppins', 'Segoe UI', sans-serif;
+}
+
+.filter-group {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.filter-group label {
+  color: #4ecdc4;
+  font-weight: 600;
+  font-family: 'Poppins', 'Segoe UI', sans-serif;
+}
+
+.filter-group select {
+  padding: 8px 15px;
+  border: none;
+  border-radius: 10px;
+  background: #16213e;
+  color: white;
+  font-size: 14px;
+  cursor: pointer;
+  font-family: 'Poppins', 'Segoe UI', sans-serif;
+  font-weight: 500;
+}
